@@ -1,0 +1,29 @@
+label {color:blue} 
+label {text-decoration: underline}
+.TituloPrincipal {border: 3px double rgb(0, 255, 255)}
+/*#TituloIndex {background-color:green}*/
+
+.fondo{
+    background-image: url(../img/fondo.jpg);
+    background-position: center;
+    background-repeat: repeat-y; 
+    background-position: center;
+}
+
+
+    
+/*body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(../img/fondo.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 100%;
+}*/
+
+
+@media screen and (max-width: 768px) {
+    .fondo {
+      background-image: url(../img/FondoCelular.jpg);
+    }
+  }
